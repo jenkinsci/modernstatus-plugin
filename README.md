@@ -1,4 +1,4 @@
-h1. Modern Status for Jenkins
+# Modern Status for Jenkins
 
 Providing a modern look to Jenkins Status indicators. 
 
