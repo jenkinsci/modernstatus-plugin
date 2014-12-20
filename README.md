@@ -14,6 +14,8 @@ The icons
 ![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/yellow_anime.gif)
 ![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/red.png)
 ![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/red_anime.gif)
+![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/aborted.png)
+![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/aborted_anime.gif)
 ![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/clock.png)
 ![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/edit-delete.png)
 ![](https://raw.githubusercontent.com/ovinn/modernstatus-plugin/master/src/main/webapp/24x24/folder.png)
