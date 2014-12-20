@@ -8,7 +8,7 @@
   </parent>
   <artifactId>modernstatus</artifactId>
   <packaging>hpi</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>Modern Status</name>
   <description>A modern status icon set</description>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Modern+Status</url>

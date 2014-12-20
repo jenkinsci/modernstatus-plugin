@@ -1,4 +1,4 @@
-package hudson.plugins.modernstatus;
+package org.jenkinsci.plugins.modernstatus;
 
 import hudson.Plugin;
 import hudson.PluginWrapper;

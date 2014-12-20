@@ -1,4 +1,4 @@
-package hudson.plugins.modernstatus;
+package org.jenkinsci.plugins.modernstatus;
 
 import hudson.model.Hudson;
 
@@ -29,7 +29,7 @@ public class ModernStatusFilter implements Filter {
     for (String n: names) {
       patterns[i] = Pattern.compile(String.format(patternStr, n));
       i++;
-    } 
+    }
   }
 
   /**
@@ -53,7 +53,7 @@ public class ModernStatusFilter implements Filter {
   }
 
   /**
-   * Original 
+   * Original
    * @author Asgeir Storesund Nilsen
    * Simplified
    * @author Oliver Vinn
