@@ -53,6 +53,9 @@ public class ModernStatusFilter implements Filter {
   }
 
   /**
+   * Original 
+   * @author Asgeir Storesund Nilsen
+   * Simplified
    * @author Oliver Vinn
    */
   private String mapImage(String uri) {

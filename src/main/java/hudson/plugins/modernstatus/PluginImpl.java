@@ -18,6 +18,12 @@ import javax.servlet.http.HttpServletResponse;
 import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 
+/**
+* Original
+* @author Kohsuke Kawaguchi
+* Removed logging and a few other things for my needs
+* @author Oliver Vinn
+*/
 public class PluginImpl extends Plugin {
 
   transient PluginWrapper wrapper;
