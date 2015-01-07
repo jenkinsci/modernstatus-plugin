@@ -11,7 +11,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>Modern Status</name>
   <description>A modern status icon set</description>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Modern+Status</url>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Modern+Status+Plugin</url>
   <inceptionYear>2014</inceptionYear>
 
   <properties>
@@ -44,6 +44,13 @@
     <developerConnection>scm:git:git@github.com:jenkinsci/modernstatus-plugin.git</developerConnection>
     <url>http://github.com/jenkinsci/modernstatus-plugin</url>
   </scm>
+  
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url>
+    </repository>
+  </distributionManagement>
 
   <repositories>
     <repository>
