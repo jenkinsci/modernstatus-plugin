@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ModernStatusFilter implements Filter {
 
   final String patternStr = "/(\\d{2}x\\d{2})/%s(_anime|)\\.(gif|png)";
-  final String[] names = new String[] {"blue", "red", "yellow", "nobuilt", "aborted", "folder", "grey", "edit-delete", "clock"};
+  final String[] names = new String[] {"blue", "red", "yellow", "nobuilt", "aborted", "folder", "grey", "edit-delete", "clock", "disabled"};
   Pattern[] patterns;
 
   public void init(FilterConfig config) throws ServletException {

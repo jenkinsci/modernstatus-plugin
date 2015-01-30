@@ -26,7 +26,7 @@
 # Greenballs provided the original idea and tools available but the outcome and
 # use has largely changed (transparency, hue not flash, quality etc..)
 
-colornames=("nobuilt" "yellow" "red" "blue" "aborted" "folder" "grey" "edit-delete" "clock")
+colornames=("nobuilt" "yellow" "red" "blue" "aborted" "folder" "grey" "edit-delete" "clock" "disabled")
 levels=("grey" "orange" "red" "green" "grey" "blue" "grey" "purple" "black")
 sizes="16x16 24x24 32x32 48x48"
 
