@@ -39,6 +39,11 @@ public class PluginImpl extends Plugin {
         wrapperField.setAccessible(true);
         wrapper = (PluginWrapper) wrapperField.get(this);
     } catch (Exception e) {}
+    try {
+      Field colorValue = Color.class.getDeclaredField("value");
+      colorValue.setAccessible(true);
+      colorValue.setInt(ColorPalette.BLUE, new Color(124, 208, 25).getRGB());
+    } catch (Exception e) {}
   }
 
   @Override
