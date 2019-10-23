@@ -1,4 +1,4 @@
-# Modern Status for Jenkins [![Build Status](https://jenkins.ci.cloudbees.com/buildStatus/icon?job=plugins/modernstatus-plugin)](https://jenkins.ci.cloudbees.com/job/plugins/job/modernstatus-plugin/)
+# Modern Status for Jenkins [![Build Status](https://ci.jenkins.io/job/plugins/job/modernstatus-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/plugins/job/modernstatus-plugin/job/master/)
 
 Providing a modern look to Jenkins Status indicators. 
 
