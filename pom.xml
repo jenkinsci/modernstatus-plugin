@@ -8,14 +8,14 @@
   </parent>
   <artifactId>modernstatus</artifactId>
   <packaging>hpi</packaging>
-  <version>1.3</version>
+  <version>${revision}${changelist}</version>
   <name>Modern Status</name>
   <description>A modern status icon set</description>
   <url>https://github.com/jenkinsci/modernstatus-plugin</url>
   <inceptionYear>2014</inceptionYear>
 
   <properties>
-    <revision>1.3</revision>
+    <revision>1.4</revision>
     <changelist>-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/modernstatus-plugin</gitHubRepo>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -48,7 +48,7 @@
     <connection>scm:git:git://github.com/${gitHubRepo}.git</connection>
     <developerConnection>scm:git:git@github.com:${gitHubRepo}.git</developerConnection>
     <url>https://github.com/${gitHubRepo}</url>
-    <tag>modernstatus-1.3</tag>
+    <tag>HEAD</tag>
   </scm>
   
   <repositories>
