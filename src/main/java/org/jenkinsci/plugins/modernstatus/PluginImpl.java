@@ -26,24 +26,17 @@ import org.kohsuke.stapler.StaplerResponse;
 */
 public class PluginImpl extends Plugin {
 
-  transient PluginWrapper wrapper;
-
   @Override
   public void start() throws Exception {
     super.start();
     load();
     PluginServletFilter.addFilter(new ModernStatusFilter());
-    try {
-        wrapper = null;
-        Field wrapperField = Plugin.class.getDeclaredField("wrapper");
-        wrapperField.setAccessible(true);
-        wrapper = (PluginWrapper) wrapperField.get(this);
-    } catch (Exception e) {}
   }
 
   @Override
   public void doDynamic(StaplerRequest req, StaplerResponse rsp) throws IOException, ServletException {
     rsp.setHeader("Cache-Control", "public, s-maxage=86400");
+    PluginWrapper wrapper = getWrapper();
     if (wrapper == null) {
       super.doDynamic(req, rsp);
       return;

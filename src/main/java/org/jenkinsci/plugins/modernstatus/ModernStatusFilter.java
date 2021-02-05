@@ -1,7 +1,5 @@
 package org.jenkinsci.plugins.modernstatus;
 
-import hudson.model.Hudson;
-
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,15 +17,15 @@ import javax.servlet.http.HttpServletResponse;
 
 public class ModernStatusFilter implements Filter {
 
-  final String patternStr = "/(\\d{2}x\\d{2})/%s(_anime|)\\.(gif|png)";
+  private static final String PATTERN_FORMAT = "/(\\d{2}x\\d{2})/%s(_anime|)\\.(gif|png)";
   final String[] names = new String[] {"blue", "red", "yellow", "nobuilt", "aborted", "folder", "grey", "edit-delete", "clock", "disabled"};
   Pattern[] patterns;
 
-  public void init(FilterConfig config) throws ServletException {
+  public void init(FilterConfig config) {
     patterns = new Pattern[names.length];
     int i = 0;
     for (String n: names) {
-      patterns[i] = Pattern.compile(String.format(patternStr, n));
+      patterns[i] = Pattern.compile(String.format(PATTERN_FORMAT, n));
       i++;
     }
   }
