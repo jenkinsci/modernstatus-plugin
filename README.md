@@ -2,8 +2,6 @@
 
 Providing a modern look to Jenkins Status indicators. 
 
-https://wiki.jenkins-ci.org/display/JENKINS/Modern+Status+Plugin
-
 ![Example](example.gif)
 
 ## Build Status Icons
