@@ -2,15 +2,10 @@ package org.jenkinsci.plugins.modernstatus;
 
 import hudson.Plugin;
 import hudson.PluginWrapper;
-import hudson.util.ColorPalette;
 import hudson.util.PluginServletFilter;
 
-import java.awt.Color;
 import java.io.IOException;
-import java.lang.reflect.Field;
 import java.net.URL;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletResponse;
