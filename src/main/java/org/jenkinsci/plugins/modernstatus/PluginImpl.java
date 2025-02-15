@@ -12,11 +12,11 @@ import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletResponse;
 
-import org.kohsuke.stapler.StaplerRequest;
-import org.kohsuke.stapler.StaplerResponse;
+import org.kohsuke.stapler.StaplerRequest2;
+import org.kohsuke.stapler.StaplerResponse2;
 
 /**
 * Original
@@ -34,7 +34,7 @@ public class PluginImpl extends Plugin {
   }
 
   @Override
-  public void doDynamic(StaplerRequest req, StaplerResponse rsp) throws IOException, ServletException {
+  public void doDynamic(StaplerRequest2 req, StaplerResponse2 rsp) throws IOException, ServletException {
     rsp.setHeader("Cache-Control", "public, s-maxage=86400");
     PluginWrapper wrapper = getWrapper();
     if (wrapper == null) {
