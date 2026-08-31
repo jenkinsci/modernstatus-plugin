@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.16</version>
+    <version>6.2221.va_045130417c9</version>
   </parent>
   <artifactId>modernstatus</artifactId>
   <packaging>hpi</packaging>
@@ -19,8 +19,8 @@
     <changelist>-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/modernstatus-plugin</gitHubRepo>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jenkins.version>2.235.5</jenkins.version>
-    <java.level>8</java.level>
+    <jenkins.baseline>2.555</jenkins.baseline>
+    <jenkins.version>${jenkins.baseline}.3</jenkins.version>
   </properties>
 
   <developers>
